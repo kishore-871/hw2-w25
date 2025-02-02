@@ -104,21 +104,25 @@ div {
 }
 
 /* Red Class Styles */
-.red {
+div.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px solid;
     border-left: 5px solid;
+    border-top: none; /* Override to remove top border */
+    border-right: none; /* Override to remove right border */
 }
 
 /* Blue Div Styles */
-.blue {
+div.blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid;
     border-top: 2px solid;
+    border-bottom: none;
+    border-left: none;
     color: #C4C4C4;
 }
 
@@ -127,22 +131,26 @@ div {
 }
 
 /* Yellow Div Styles */
-.yellow {
+div.yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px solid;
     border-left: 5px solid;
+    border-top: none;
+    border-right: none;
     color: #707070;
 }
 
 /* Green Div Styles */
-.green {
+div.green {
     background-color: #008500; /* You can switch between #008500, #00D800 */
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid;
     border-top: 2px solid;
+    border-left: none;
+    border-bottom: none;
 }
 
 /* Footer Styles */
